@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of Seaons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="head">
+        <div class="title">SEASONS</div>
+        <div class="nav">
+            <a href="#spring">Spring</a>
+            <a href="#summer">Summer</a>
+            <a href="#autumn">Autumn</a>
+            <a href="#winter">Winter</a>
+        </div>
+    </div>
+
+    <table>
+        <tr>
+            <th>Seasons</th>
+            <th>Months</th>
+        </tr>
+        <tr>
+            <td>Spring</td>
+            <td>Mid Febuary to Late April</td>
+        </tr>
+        <tr>
+            <td>Summer</td>
+            <td>March to June</td>
+        </tr>
+        <tr>
+            <td>Autumn</td>
+            <td>October to November</td>
+        </tr>
+        <tr>
+            <td>Winter</td>
+            <td>December to Febuary</td>
+        </tr>
+    </table>
+
+    <div class="alltopics">
+        <div class="topics" id="spring">
+            <div class="heading">Spring</div>
+            <div class="description">Spring is the most pleasant and beautiful season of the year, coming after the cold winter and bringing warmth, freshness, and joy to nature. During this season, flowers bloom in bright colors, trees grow new leaves, and the fields look green and lively. Birds sing sweetly, butterflies flutter around, and the air is filled with the fragrance of blossoms. The weather is mild and comfortable, making it the best time for outdoor activities and celebrations. Many festivals like Holi, Easter, and Vaisakhi are celebrated in spring, symbolizing happiness, hope, and new beginnings. It is also the season when farmers sow seeds and crops start to grow, representing renewal and growth. Spring truly fills life with beauty, energy, and charm, which is why it is often called the season of joy and freshness.</div>
+            <div class="video">
+                <iframe width="300" height="300" src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/MPaEbz-/videoblocks-slowmo-tracking-shot-with-close-up-of-bright-sun-shining-through-branches-of-tree-with-green-leaves_hfiovovc8__61c60b0684c7e248c482a675daf8f5a7__P360.mp4" title="spring" ></iframe>
+            </div>
+        </div>
+
+        <div class="topics" id="summer">
+            <div class="heading">Summer</div>
+            <div class="description">Summer is the hottest season of the year, coming after spring and lasting until the rainy season begins. The days are long, bright, and sunny, while the nights are short and warm. During this season, people enjoy eating cold foods like ice creams and drinking cool juices to stay refreshed. Schools usually have summer vacations, giving children time to play, travel, and spend holidays with their families. Many fruits such as mangoes, watermelons, and litchis are found in abundance during this time, adding sweetness to the season. Although the heat can sometimes be uncomfortable, summer is also a time of fun, energy, and outdoor activities. It is a season that reminds us of brightness, joy, and togetherness.</div>
+            <div class="video">
+                <iframe width="300" height="300" src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/S9tAT3hqjlcs9cgu3/uj22-pt6gbkymsb__cc0c75ad0f363a72c9effd9926c2825f__P360.mp4" title="summer" ></iframe>
+            </div>
+        </div>
+
+        <div class="topics" id="autumn">
+            <div class="heading">Autumn</div>
+            <div class="description">Autumn is the season that comes after summer and before winter, and it is often called the season of change. During this time, the weather becomes cooler, the days grow shorter, and the nights longer. The most special feature of autumn is the falling of leaves, as trees shed their old leaves and prepare for winter. The leaves turn golden, red, and brown, covering the ground with beautiful colors. The air feels fresh and crisp, making it a pleasant time for outdoor walks and activities. Farmers harvest their crops in autumn, so it is also known as the season of harvest and plenty. Many festivals such as Halloween, Thanksgiving, and Mid-Autumn Festival are celebrated in this season, symbolizing gratitude and joy. Autumn truly teaches us the beauty of change and the cycle of life in nature.</div>
+            <div class="video">
+                <iframe width="300" height="300" src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/rmMylgYegxmae1jxln/njlife0129-f1q52qb7vj__48bd69f91b2d33c7cdccbe84f7541e21__P360.mp4" title="autumn" ></iframe>
+            </div>
+        </div>
+
+        <div class="topics" id="winter">
+            <div class="heading">Winter</div>
+            <div class="description">Winter is the coldest season of the year, coming after autumn and lasting until the beginning of spring. During this season, the days are short, the nights are long, and the air feels chilly and crisp. In many regions, people experience snowfall, and the surroundings look beautiful, covered in white snow. People wear warm clothes like sweaters, jackets, and scarves to protect themselves from the cold. Winter is also a season of festivals such as Christmas and New Year, which bring joy, lights, and celebrations. Many enjoy hot foods and drinks like soup, tea, and coffee during this season. Although the cold weather can sometimes be harsh, winter is loved for its beauty, peaceful atmosphere, and festive spirit.</div>
+            <div class="video">
+                <iframe width="300" height="300" src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/B04Gfy1teiz3sdqe6/videoblocks-4k-flight-above-winter-forest-on-the-north-aerial-top-view_hsuzhhn-v__f6704bf707f9109a5fbeff8e98b17d8f__P360.mp4" title="winter" ></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!--Feedback Form-->
+    <div class="feedback">
+        <form  method="POST">
+            <h2 class="feed_back_form">Feedback Form</h2>
+
+            <div class="form_row">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+
+            <div class="form_row">
+                <label for="gender">Gender</label>
+                <div class="radio_group">
+                    <input type="radio" id="male" name="gender" value="Male">
+                    <span>Male</span>
+                
+
+                    <input type="radio" id="female" name="gender" value="Female">
+                    <span>Female</span>
+                    
+
+                </div>
+
+                
+            </div>
+
+            <div class="form_row">
+                <label for="season">Choose a your favourite season</label>
+                <select id="season" name="season">
+                    <option value="" disabled selected hidden>-- Select a Season --</option>
+                    <option value="Spring">Spring</option>
+                    <option value="Summer">Summer</option>
+                    <option value="Autumn">Autumn</option>
+                    <option value="Winter">Winter</option>
+                </select>
+            </div>
+
+            <div class="form_row">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form_row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+
+            <div class="form_row button_row">
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Seasons. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
